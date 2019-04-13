@@ -23,10 +23,10 @@ library(ggplot2, lib="J:/Final Project/Sentinalysis/")
 
 download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem")  #downloads the certificate
 
-consumerKey <- "buFWcWVZE3WpFnxMl3kXUAYaS"
-consumerSecret <- "pPLsRFWxfzmSUrbBFfQ2ywItbRf64HTWpj76EYjQd8ZeqrHZZb"
-accessToken <- "754300606911811584-ltzDOWqaHJlN2Zno0iWyCcJnsraI1Ax"
-accessTokenSecret <- "N9MxlmnxXioEsLBHhGoprfn0GOOCt7UEUufWnpIcMBhgJ"
+consumerKey <- "Your Consumer Key"
+consumerSecret <- "Your Consumer Secret"
+accessToken <- "Your Access Token"
+accessTokenSecret <- "Your Access Token Secret"
 
 
 requestURL<- "https://api.twitter.com/oauth/request_token"
